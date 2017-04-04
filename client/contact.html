@@ -1,0 +1,42 @@
+
+<div class="pages">
+   <div data-page="projects" class="page no-toolbar no-navbar">
+      <div class="page-content">
+	   <!--top header-->
+      <div class="navbarpages">
+         <div class="nav_left_logo"><a href="index.html"><img src="images/logo.png" alt="" title="" /></a></div>
+         <div class="nav_right_button">
+		 <!--A link to Open Main Nav-->
+            <a href="menu.html"><img src="images/icons/white/menu.png" alt="" title="" /></a>
+			<!--A link to go back to Previous Page-->
+            <a href="food-menu.html"><img src="images/icons/white/back.png" alt="" title="" /></a>
+         </div>
+      </div>
+	   <!--top header-->
+         <div id="pages_maincontent">
+		  <!--Contact form-->
+           <!-- the header information of the page --> 
+		   <h2 class="page_title">Get in touch</h2><!-- heading tag-->
+            <div class="page_content">
+               <h2 id="Note"></h2>
+               <div class="contactform">
+                  <form class="cmxform" id="ContactForm" method="post" action="#"><!--to get information from diffrent fileds in toa array-->
+                     <label>Customer Name:</label><!--for print Lable text-->
+                     <input type="text" name="ContactName" id="ContactName" value="" class="form_input required" /><!--to get information from user-->
+                     <label>Contact Information:</label>
+                     <input type="text" name="ContactEmail" id="ContactEmail" value="" class="form_input required email" />
+                     <label>Feedback:</label>
+                     <textarea name="ContactComment" id="ContactComment" class="form_textarea textarea required" rows="" cols=""></textarea>
+                     <input type="submit" name="submit" class="form_submit" id="submit" value="Send" />
+                     <input class="" type="hidden" name="to"  value="youremail@yourwebsite.com" />
+                     <input class="" type="hidden" name="subject" value="Contacf form message" />
+                     <label id="loader" style="display:none;"><img src="images/loader.gif" alt="Loading..." id="LoadingGraphic" /></label>
+                  </form>
+               </div>
+               <div class="clear"></div>
+            </div>
+			  <!--Contact form-->
+         </div>
+      </div>
+   </div>
+</div>
