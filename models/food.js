@@ -4,12 +4,12 @@ var locallydb = require('locallydb');
 // load the database (folder) in './mydb', will be created if doesn't exist 
 var db = new locallydb('./mydb');
 
-// load the collection (file) in './mydb/monsters', will be created if doesn't exist 
+// load the collection (file) in './mydb/food', will be created if doesn't exist 
 var collection = db.collection('food');
 //Initlizing interface object of this model.
 var foodModel = {};
 
-//Function to seed videos data.
+//Function to seed food data.
 foodModel.seed = function(){
 
 	collection.insert([
